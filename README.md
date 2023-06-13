@@ -1,2 +1,2 @@
 # Atividade-extensionista
-Atividade extensionista - Projeto: conscientização do uso de energia elétrica
+Atividade extensionista - Projeto: Calculadora para gasto de energia elétrica
