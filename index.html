@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Consumo de Energia</title>
+</head>
+<body>
+    <h1>Calculadora de Consumo de Energia</h1>
+    <form action="/result" method="post">
+        <label for="preco_conta">Preço final da última conta de energia elétrica:</label>
+        <input type="number" id="preco_conta" name="preco_conta" step="0.01" required><br>
+
+        <label for="valor_kw">Total de kWh consumidos na última conta:</label>
+        <input type="number" id="valor_kw" name="valor_kw" step="0.01" required><br>
+
+        <h2>Equipamentos</h2>
+        <label for="qtd_chuveiro">Quantidade de chuveiros:</label>
+        <input type="number" id="qtd_chuveiro" name="qtd_chuveiro" required><br>
+
+        <label for="potencia_chuveiro">Potência média dos chuveiros (Watts):</label>
+        <input type="number" id="potencia_chuveiro" name="potencia_chuveiro" step="0.01" required><br>
+
+        <label for="tempo_chuveiro">Tempo médio que cada chuveiro fica ligado (horas):</label>
+        <input type="number" id="tempo_chuveiro" name="tempo_chuveiro" step="0.01" required><br>
+
+        <label for="qtd_geladeira">Quantidade de geladeiras:</label>
+        <input type="number" id="qtd_geladeira" name="qtd_geladeira" required><br>
+
+        <label for="potencia_geladeira">Potência média das geladeiras (Watts):</label>
+        <input type="number" id="potencia_geladeira" name="potencia_geladeira" step="0.01" required><br>
+
+        <label for="tempo_geladeira">Tempo médio que cada geladeira fica ligada (horas):</label>
+        <input type="number" id="tempo_geladeira" name="tempo_geladeira" step="0.01" required><br>
+
+        <label for="qtd_microondas">Quantidade de micro-ondas:</label>
+        <input type="number" id="qtd_microondas" name="qtd_microondas" required><br>
+
+        <label for="potencia_microondas">Potência média dos micro-ondas (Watts):</label>
+        <input type="number" id="potencia_microondas" name="potencia_microondas" step="0.01" required><br>
+
+        <label for="tempo_microondas">Tempo médio que cada micro-ondas fica ligado (horas):</label>
+        <input type="number" id="tempo_microondas" name="tempo_microondas" step="0.01" required><br>
+
+        <label for="qtd_lavaroupa">Quantidade de máquinas de lavar roupas:</label>
+        <input type="number" id="qtd_lavaroupa" name="qtd_lavaroupa" required><br>
+
+        <label for="potencia_lavaroupa">Potência média das máquinas de lavar roupas (Watts):</label>
+        <input type="number" id="potencia_lavaroupa" name="potencia_lavaroupa" step="0.01" required><br>
+
+        <label for="tempo_lavaroupa">Tempo médio que cada máquina de lavar roupas fica ligada (horas):</label>
+        <input type="number" id="tempo_lavaroupa" name="tempo_lavaroupa" step="0.01" required><br>
+
+
+        
+        <label for="qtd_lampadas">Quantidade de lâmpadas:</label>
+        <input type="number" id="qtd_lampadas" name="qtd_lampadas" required><br>
+
+        <label for="potencia_lampadas">Potência média de cada lâmpada (Watts):</label>
+        <input type="number" id="potencia_lampadas" name="potencia_lampadas" step="0.01" required><br>
+
+        <label for="tempo_lampadas">Tempo médio que cada lâmpada fica ligada (horas):</label>
+        <input type="number" id="tempo_lampadas" name="tempo_lampadas" step="0.01" required><br>
+
+
+        <label for="qtd_ar">Quantidade de ar condicionado:</label>
+        <input type="number" id="qtd_ar" name="qtd_ar" required><br>
+
+        <label for="potencia_ar">Potência média de cada ar condicionado (Watts):</label>
+        <input type="number" id="potencia_ar" name="potencia_ar" step="0.01" required><br>
+
+        <label for="tempo_ar">Tempo médio que cada ar condicionado fica ligada (horas):</label>
+        <input type="number" id="tempo_ar" name="tempo_ar" step="0.01" required><br>
+
+
+        <label for="qtd_tv">Quantidade de TVs:</label>
+        <input type="number" id="qtd_tv" name="qtd_tv" required><br>
+
+        <label for="potencia_tv">Potência média de cada TV (Watts):</label>
+        <input type="number" id="potencia_tv" name="potencia_tv" step="0.01" required><br>
+
+        <label for="tempo_tv">Tempo médio que cada TV  fica ligada (horas):</label>
+        <input type="number" id="tempo_tv" name="tempo_tv" step="0.01" required><br>
+
+
+
+       
+
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
